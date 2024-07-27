@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Infinity Pharma</title>
+</head>
+
+<body class="bg-black text-white">
+    <div class="container">
+        <nav class="flex justify-around">
+            <div class="logo">
+                <img src="cropped-infintypharma.webp" alt="" class="w-3/5">
+            </div>
+            <div class="menu_items flex items-center list-none text-1xl font-bold gap-10">
+                <li class="hover:text-orange-500 hover:cursor-pointer hover:underline hover:underline-offset-8">Home</li>
+                <li class="hover:text-orange-500 hover:cursor-pointer hover:underline hover:underline-offset-8">Products</li>
+                <li class="hover:text-orange-500 hover:cursor-pointer hover:underline hover:underline-offset-8"><a href="index.html">Product Verification</a></li>
+                <li class="hover:text-orange-500 hover:cursor-pointer hover:underline hover:underline-offset-8">About us</li>
+                <li class="hover:text-orange-500 hover:cursor-pointer hover:underline hover:underline-offset-8">Contact us</li>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container flex flex-col gap-6 items-center py-4">
+        <h2 class="text-4xl font-bold">Authenticate Product</h2>
+        <p class="text-2xl font-medium">Enter Security Numbers</p>
+        <p class="text-2xl font-medium">for authentication.</p>
+        <input type="text" class="rounded-3xl text-black text-center" style="width: 500px; height: 40px;"
+            id="input_blank">
+        <button type="button" class="bg-green-900 px-48 py-2 rounded-3xl text-2xl" onclick="verify()">Submit</button>
+        <p id="result"></p>
+    </div>
+
+    <div class="container">
+        <h2 class="text-3xl text-center font-bold">Products</h2>
+        <div class="flex justify-center gap-96 my-6">
+            <div class="logo">
+                <img src="cropped-infintypharma.webp" alt="" class="w-3/5" style="margin-left: 100px;">
+            </div>
+            <div class="menu_items flex flex-col items-center list-none text-1xl font-bold gap-2" style="margin-right:560px ;">
+                <li class="text-orange-500 hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-8">Home</li>
+                <li class="text-orange-500 hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-8">Products</li>
+                <li class="text-nowrap text-orange-500 hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-8"><a href="index.html">Product Verification</a></li>
+                <li class="text-orange-500 hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-8">About us</li>
+                <li class="text-orange-500 hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-8">Contact us</li>
+            </div>
+        </div>
+        <p class="text-center">Copyright @ 2023 Infinity Pharma</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
